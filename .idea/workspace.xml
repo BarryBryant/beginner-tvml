@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="appletvos" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="video.tvml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wenderTV/video.tvml">
+      <file leaf-file-name="ResourceLoader.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wenderTV/ResourceLoader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -32,6 +32,7 @@
       <list>
         <option value="$PROJECT_DIR$/wenderTV/main.js" />
         <option value="$PROJECT_DIR$/wenderTV/video.tvml" />
+        <option value="$PROJECT_DIR$/wenderTV/ResourceLoader.js" />
       </list>
     </option>
   </component>
@@ -278,12 +279,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491587350455</updated>
-      <workItem from="1491587351870" duration="1825000" />
+      <workItem from="1491587351870" duration="2631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1825000" />
+    <option name="totallyTimeSpent" value="2631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1342" y="23" width="2098" height="1412" extended-state="0" />
@@ -320,30 +321,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wenderTV/ResourceLoader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-          <folding>
-            <marker date="1475020002000" expanded="false" signature="0:1116" ph="/*...*/" />
-            <marker date="1475020002000" expanded="true" signature="1142:2124" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="1180:1277" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="1301:1451" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="1480:1544" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="1590:1933" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="1748:1906" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="1788:1863" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="1869:1900" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="1964:2119" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="2021:2089" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="2175:2370" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="2208:2248" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="2269:2368" ph="{...}" />
-            <marker date="1475020002000" expanded="true" signature="2307:2364" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
@@ -421,8 +398,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wenderTV/video.tvml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="504">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <marker date="1491589755000" expanded="true" signature="49:1064" ph="..." />
+            <marker date="1491589755000" expanded="true" signature="71:1052" ph="..." />
+            <marker date="1491589755000" expanded="true" signature="88:1029" ph="..." />
+            <marker date="1491589755000" expanded="true" signature="111:614" ph="..." />
+            <marker date="1491589755000" expanded="true" signature="134:314" ph="..." />
+            <marker date="1491589755000" expanded="true" signature="163:242" ph="..." />
+            <marker date="1491589755000" expanded="true" signature="337:590" ph="..." />
+            <marker date="1491589755000" expanded="true" signature="366:440" ph="..." />
+            <marker date="1491589755000" expanded="true" signature="634:1011" ph="..." />
+            <marker date="1491589755000" expanded="true" signature="696:990" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenderTV/ResourceLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
           <folding />
         </state>
       </provider>

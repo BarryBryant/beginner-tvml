@@ -18,6 +18,17 @@
                     <text>business</text>
                 </info>
             </infoList>
+            <stack>
+                <title>Teamwork</title>
+                <row>
+                    <text>17m 54s</text>
+                    <text>Inspiration</text>
+                    <text>2015</text>
+                    <badge src="resource://nr"/>
+                    <badge src="resource://cc"/>
+                    <badge src="resource://hd"/>
+                </row>
+            </stack>
         </banner>
     </productTemplate>
 </document>
