@@ -32,7 +32,7 @@ class ResourceLoaderJS {
         var docString = this.nativeResourceLoader.loadBundleResource(name);
         var rendered = Mustache.render(docString, data);
         return this.domParser.parseFromString(rendered, "application/xml");
-        
+
     }
 
     getJSON(name) {

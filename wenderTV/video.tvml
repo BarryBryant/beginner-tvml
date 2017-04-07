@@ -7,26 +7,30 @@
                     <header>
                         <title>Presenter</title>
                     </header>
-                    <text>Ray Wenderlich</text>
+                    <text>{{presenter}}</text>
                 </info>
                 <info>
                     <header>
                         <title>Tags</title>
                     </header>
-                    <text>development</text>
-                    <text>teams</text>
-                    <text>business</text>
+                    {{#tags}}
+                        <text>{{.}}</text>
+                    {{/tags}}
                 </info>
             </infoList>
             <stack>
-                <title>Teamwork</title>
+                <title>{{title}}</title>
                 <row>
                     <text>17m 54s</text>
                     <text>Inspiration</text>
                     <text>2015</text>
                     <badge src="resource://nr"/>
-                    <badge src="resource://cc"/>
-                    <badge src="resource://hd"/>
+                    {{#closed-captions}}
+                    <badge src="resource://cc" />
+                    {{/closed-captions}}
+                    {{#hd}}
+                    <badge src="resource://hd" />
+                    {{/hd}}
                 </row>
             </stack>
         </banner>

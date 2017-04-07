@@ -38,7 +38,11 @@ App.onLaunch = function (options) {
 
 
 function loadInitialDocument(resourceLoader) {
-    return resourceLoader.getDocument("video.tvml");
+    var data = resourceLoader.getJSON("identity.json");
+    data["images"] = resourceLoader.convertNamesToURLs(data["images"]);
+    data = resourceLoader.recursivelyConvertFieldsToURLs(data, "image");
+    data["sharedImages"] = _sharedImageResources(resourceLoader);
+    return resourceLoader.getDocument("video.tvml", data);
 }
 
 function _sharedImageResources(resourceLoader) {

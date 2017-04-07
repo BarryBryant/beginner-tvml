@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="appletvos" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ResourceLoader.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wenderTV/ResourceLoader.js">
+      <file leaf-file-name="video.tvml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wenderTV/video.tvml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="768">
+              <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -27,12 +27,17 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>teamwor</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/wenderTV/ResourceLoader.js" />
         <option value="$PROJECT_DIR$/wenderTV/main.js" />
         <option value="$PROJECT_DIR$/wenderTV/video.tvml" />
-        <option value="$PROJECT_DIR$/wenderTV/ResourceLoader.js" />
       </list>
     </option>
   </component>
@@ -279,12 +284,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491587350455</updated>
-      <workItem from="1491587351870" duration="2631000" />
+      <workItem from="1491587351870" duration="3469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2631000" />
+    <option name="totallyTimeSpent" value="3469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1342" y="23" width="2098" height="1412" extended-state="0" />
@@ -363,24 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wenderTV/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="28" column="76" lean-forward="false" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
-          <folding>
-            <marker date="1491587783000" expanded="true" signature="0:1116" ph="/*...*/" />
-            <marker date="1491587783000" expanded="true" signature="1174:1682" ph="{...}" />
-            <marker date="1491587783000" expanded="true" signature="1246:1679" ph="{...}" />
-            <marker date="1491587783000" expanded="true" signature="1269:1485" ph="{...}" />
-            <marker date="1491587783000" expanded="true" signature="1491:1673" ph="{...}" />
-            <marker date="1491587783000" expanded="true" signature="1731:1787" ph="{...}" />
-            <marker date="1491587783000" expanded="true" signature="1836:2060" ph="{...}" />
-            <marker date="1491587783000" expanded="true" signature="1865:1992" ph="{&quot;heads&quot;: &quot;heads.png&quot;...}" />
-            <marker date="1491587783000" expanded="true" signature="2104:2460" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wenderTV/ResourceLoader.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -396,29 +383,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wenderTV/video.tvml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <marker date="1491589755000" expanded="true" signature="49:1064" ph="..." />
-            <marker date="1491589755000" expanded="true" signature="71:1052" ph="..." />
-            <marker date="1491589755000" expanded="true" signature="88:1029" ph="..." />
-            <marker date="1491589755000" expanded="true" signature="111:614" ph="..." />
-            <marker date="1491589755000" expanded="true" signature="134:314" ph="..." />
-            <marker date="1491589755000" expanded="true" signature="163:242" ph="..." />
-            <marker date="1491589755000" expanded="true" signature="337:590" ph="..." />
-            <marker date="1491589755000" expanded="true" signature="366:440" ph="..." />
-            <marker date="1491589755000" expanded="true" signature="634:1011" ph="..." />
-            <marker date="1491589755000" expanded="true" signature="696:990" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wenderTV/ResourceLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <marker date="1491590238000" expanded="false" signature="0:1116" ph="/*...*/" />
+            <marker date="1491590238000" expanded="true" signature="1142:2498" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="1182:1289" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="1319:1563" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="1583:1731" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="1759:1829" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="1877:2285" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="2048:2252" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="2094:2191" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="2197:2242" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="2316:2495" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="2381:2459" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="2549:2772" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="2584:2630" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="2654:2770" ph="{...}" />
+            <marker date="1491590238000" expanded="true" signature="2697:2764" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenderTV/teamwork.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1475020002000" expanded="true" signature="0:2269" ph="{&quot;title&quot;: &quot;Teamwork&quot;...}" />
+            <marker date="1475020002000" expanded="true" signature="239:292" ph="{&quot;hero&quot;: &quot;talk-ray-wenderlich-teamwork.jpeg&quot;...}" />
+            <marker date="1475020002000" expanded="true" signature="558:956" ph="[...]" />
+            <marker date="1475020002000" expanded="true" signature="979:1954" ph="{...}" />
+            <marker date="1475020002000" expanded="true" signature="999:1077" ph="{&quot;out-of-five&quot;: 4.8...}" />
+            <marker date="1475020002000" expanded="true" signature="1096:1183" ph="{&quot;rock&quot;: 67...}" />
+            <marker date="1475020002000" expanded="true" signature="1200:1950" ph="[...]" />
+            <marker date="1475020002000" expanded="true" signature="1208:1472" ph="{&quot;name&quot;: &quot;I &lt;3 RW&quot;...}" />
+            <marker date="1475020002000" expanded="true" signature="1480:1661" ph="{&quot;name&quot;: &quot;D. Vader&quot;...}" />
+            <marker date="1475020002000" expanded="true" signature="1669:1944" ph="{&quot;name&quot;: &quot;Syco Phant&quot;...}" />
+            <marker date="1475020002000" expanded="true" signature="1968:2267" ph="[...]" />
+            <marker date="1475020002000" expanded="true" signature="1974:2065" ph="{&quot;firstname&quot;: &quot;Ray&quot;...}" />
+            <marker date="1475020002000" expanded="true" signature="2071:2165" ph="{&quot;firstname&quot;: &quot;Mic&quot;...}" />
+            <marker date="1475020002000" expanded="true" signature="2171:2263" ph="{&quot;firstname&quot;: &quot;Christine&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenderTV/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <marker date="1491590823000" expanded="true" signature="0:1116" ph="/*...*/" />
+            <marker date="1491590823000" expanded="true" signature="1174:1682" ph="{...}" />
+            <marker date="1491590823000" expanded="true" signature="1246:1679" ph="{...}" />
+            <marker date="1491590823000" expanded="true" signature="1269:1485" ph="{...}" />
+            <marker date="1491590823000" expanded="true" signature="1491:1673" ph="{...}" />
+            <marker date="1491590823000" expanded="true" signature="1731:2060" ph="{...}" />
+            <marker date="1491590823000" expanded="true" signature="2109:2333" ph="{...}" />
+            <marker date="1491590823000" expanded="true" signature="2138:2265" ph="{&quot;heads&quot;: &quot;heads.png&quot;...}" />
+            <marker date="1491590823000" expanded="true" signature="2377:2733" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenderTV/video.tvml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding />
         </state>
       </provider>
