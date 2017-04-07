@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+    <productTemplate>
+        <banner>
+            <infoList>
+                <info>
+                    <header>
+                        <title>Presenter</title>
+                    </header>
+                    <text>Ray Wenderlich</text>
+                </info>
+                <info>
+                    <header>
+                        <title>Tags</title>
+                    </header>
+                    <text>development</text>
+                    <text>teams</text>
+                    <text>business</text>
+                </info>
+            </infoList>
+        </banner>
+    </productTemplate>
+</document>
