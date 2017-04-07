@@ -88,5 +88,9 @@ function _handleEvent(event) {
         case "dismiss":
             navigationDocument.dismissModal();
             break;
+        case "addRating":
+            var ratingDoc = resourceLoader.getDocument("videoRating.tvml", {title: "Rate Video"});
+            navigationDocument.presentModal(ratingDoc);
+            break;
     }
 }

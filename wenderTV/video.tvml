@@ -78,5 +78,28 @@
                 {{/people}}
             </section>
         </shelf>
+        <shelf>
+            <header>
+                <title>What other people thought</title>
+            </header>
+            <section>
+                {{#ratings-reviews}}
+                    <ratingCard action="addRating">
+                        {{#rw-ratings}}
+                            <title>{{out-of-five}} / 5</title>
+                            <ratingBadge value="{{badge-value}}"></ratingBadge>
+                            <description>Mean of {{count}} ratings.</description>
+                        {{/rw-ratings}}
+                    </ratingCard>
+                    {{#reviews}}
+                        <reviewCard>
+                            <title>{{title}}</title>
+                            <description>{{description}}</description>
+                            <text>{{name}} {{date}}</text>
+                        </reviewCard>
+                    {{/reviews}}
+                {{/ratings-reviews}}
+            </section>
+        </shelf>
     </productTemplate>
 </document>
