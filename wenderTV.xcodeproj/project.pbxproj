@@ -29,6 +29,7 @@
 		22987B951BF74F3500D0468A /* recognition.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B941BF74F3500D0468A /* recognition.json */; };
 		22987B971BF74F4600D0468A /* starting-over.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B961BF74F4600D0468A /* starting-over.json */; };
 		22987B991BF74F5300D0468A /* identity.json in Resources */ = {isa = PBXBuildFile; fileRef = 22987B981BF74F5300D0468A /* identity.json */; };
+		86AB96DDF80B3376AAE88221 /* expandedDetailText.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 86AB9A6D984137DCA2201FAE /* expandedDetailText.tvml */; };
 		86AB99D5DC927B90368C2352 /* video.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 86AB93C792B0FB571C18A8B8 /* video.tvml */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		22987B961BF74F4600D0468A /* starting-over.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "starting-over.json"; sourceTree = "<group>"; };
 		22987B981BF74F5300D0468A /* identity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = identity.json; sourceTree = "<group>"; };
 		86AB93C792B0FB571C18A8B8 /* video.tvml */ = {isa = PBXFileReference; lastKnownFileType = file.tvml; path = video.tvml; sourceTree = "<group>"; };
+		86AB9A6D984137DCA2201FAE /* expandedDetailText.tvml */ = {isa = PBXFileReference; lastKnownFileType = file.tvml; path = expandedDetailText.tvml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				86AB93C792B0FB571C18A8B8 /* video.tvml */,
+				86AB9A6D984137DCA2201FAE /* expandedDetailText.tvml */,
 			);
 			name = layouts;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				22987B7F1BF7143600D0468A /* talk-chris-wagner-craftsmanship.png in Resources */,
 				22987B991BF74F5300D0468A /* identity.json in Resources */,
 				86AB99D5DC927B90368C2352 /* video.tvml in Resources */,
+				86AB96DDF80B3376AAE88221 /* expandedDetailText.tvml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <document>
-    <productTemplate>
+    <productTemplate theme="light">
         <banner>
             <infoList>
                 <info>
@@ -14,7 +14,7 @@
                         <title>Tags</title>
                     </header>
                     {{#tags}}
-                        <text>{{.}}</text>
+                    <text>{{.}}</text>
                     {{/tags}}
                 </info>
             </infoList>
@@ -26,13 +26,57 @@
                     <text>2015</text>
                     <badge src="resource://nr"/>
                     {{#closed-captions}}
-                    <badge src="resource://cc" />
+                    <badge src="resource://cc"/>
                     {{/closed-captions}}
                     {{#hd}}
-                    <badge src="resource://hd" />
+                    <badge src="resource://hd"/>
                     {{/hd}}
                 </row>
+                <description allowsZooming="true"
+                             moreLabel="more"
+                             action="showOverflow"
+                             title="{{title}}">{{description}}
+                </description>
+                <text>{{language}}</text>
+                <row>
+                    <buttonLockup type="play">
+                        <badge src="resource://button-play"/>
+                        <title>Play</title>
+                    </buttonLockup>
+                    <buttonLockup type="buy">
+                        <text>$9.99</text>
+                        <text>Buy</text>
+                    </buttonLockup>
+                </row>
             </stack>
+            <heroImg src="{{images.hero}}"/>
         </banner>
+        <shelf>
+            <header>
+                <title>You might also like</title>
+            </header>
+            <section>
+                {{#recommendations}}
+                <lockup>
+                    <img src="{{image}}" width="402" height="226"/>
+                    <title>{{title}}</title>
+                </lockup>
+                {{/recommendations}}
+            </section>
+        </shelf>
+        <shelf>
+            <header>
+                <title>Production</title>
+            </header>
+            <section>
+                {{#people}}
+                <monogramLockup>
+                    <monogram firstName="{{firstname}}" lastName="{{lastname}}"/>
+                    <title>{{firstname}} {{lastname}}</title>
+                    <subtitle>{{role}}</subtitle>
+                </monogramLockup>
+                {{/people}}
+            </section>
+        </shelf>
     </productTemplate>
 </document>

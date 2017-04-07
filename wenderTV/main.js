@@ -28,6 +28,7 @@ App.onLaunch = function (options) {
         if (success) {
             resourceLoader = new ResourceLoaderJS(NativeResourceLoader.create());
             var initialDoc = loadInitialDocument(resourceLoader);
+            initialDoc.addEventListener("select", _handleEvent);
             navigationDocument.pushDocument(initialDoc);
         } else {
             var alert = _createAlert("Evaluate Scripts Error", "Error attempting to evaluate the external JS files.");
@@ -68,4 +69,24 @@ function _createAlert(title, description) {
     var parser = new DOMParser();
     var alertDoc = parser.parseFromString(alertString, "application/xml");
     return alertDoc
+}
+
+function _handleEvent(event) {
+    var sender = event.target;
+    var action = sender.getAttribute("action");
+
+    switch (action) {
+        case "showOverflow":
+            var data = {
+                text: sender.textContent,
+                title: sender.getAttribute("title")
+            };
+            var expandedText = resourceLoader.getDocument("expandedDetailText.tvml", data);
+            expandedText.addEventListener("select", _handleEvent);
+            navigationDocument.presentModal(expandedText);
+            break;
+        case "dismiss":
+            navigationDocument.dismissModal();
+            break;
+    }
 }
